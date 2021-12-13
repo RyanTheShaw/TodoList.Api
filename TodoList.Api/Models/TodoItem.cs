@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WeatherForecast.Api.Models
+namespace TodoList.Api.Models
 {
     public class TodoItem
     {

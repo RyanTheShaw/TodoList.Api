@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "WeatherForecast.Api": {
+    "TodoList.Api": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

@@ -12,9 +12,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WeatherForecast.Api.Models;
+using TodoList.Api.Models;
 
-namespace WeatherForecast.Api
+namespace TodoList.Api
 {
     public class Startup
     {
@@ -35,7 +35,7 @@ namespace WeatherForecast.Api
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WeatherForecast.Api", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "TodoList.Api", Version = "v1" });
             });
         }
 
@@ -46,7 +46,7 @@ namespace WeatherForecast.Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WeatherForecast.Api v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TodoList.Api v1"));
             }
 
             app.UseHttpsRedirection();

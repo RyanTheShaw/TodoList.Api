@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using WeatherForecast.Api.Models;
+using TodoList.Api.Models;
 
-namespace WeatherForecast.Api.Controllers
+namespace TodoList.Api.Controllers
 {
     #region TodoController
     [Route("api/[controller]")]
